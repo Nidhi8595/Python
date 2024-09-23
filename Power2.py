@@ -1,7 +1,7 @@
-# using ** operator 
+# using pow() method 
 
 def power(base, exponent):
-    return base ** exponent
+    return pow(base,exponent)
 
 base = float(input("Enter the base -> "))
 exponent = float(input("Enter the exponent -> "))
